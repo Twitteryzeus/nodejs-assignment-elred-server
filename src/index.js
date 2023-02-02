@@ -1,6 +1,7 @@
 const express = require('express');
 const config = require('./config');
 const { sequelize } = require('./sequelize-client');
+const routers = require('./modules');
 
 // Create Express App
 const app = express();
@@ -8,6 +9,7 @@ const app = express();
 // Configure Express App
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(routers);
 
 // Add Default Route
 app.get('/', (req, res) => {

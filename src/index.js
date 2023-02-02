@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Add Default Route
 app.get('/', (req, res) => {
-  res.status(200).json({ message: 'Welcome to Car Rental!' });
+  res.status(200).json({ message: 'Welcome to elRed.io!' });
 });
 
 app.listen(config.port, () => {

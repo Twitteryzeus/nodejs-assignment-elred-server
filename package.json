@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-assignment-elred-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twitteryzeus/nodejs-assignment-elred-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twitteryzeus/nodejs-assignment-elred-server/issues"
+  },
+  "homepage": "https://github.com/Twitteryzeus/nodejs-assignment-elred-server#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "glob": "8.1.0",
+    "jsonwebtoken": "9.0.0",
+    "lodash": "4.17.21",
+    "moment": "2.29.4",
+    "pg": "8.9.0",
+    "pg-hstore": "2.3.4",
+    "randomstring": "1.2.3",
+    "sequelize": "6.28.0",
+    "sequelize-cli": "6.6.0"
+  }
+}

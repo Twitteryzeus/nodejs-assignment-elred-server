@@ -22,7 +22,7 @@ const create = async (req, res) => {
     };
 
     await transaction.commit();
-    res.status(200).json(response);
+    res.status(201).json(response);
   } catch (error) {
     if (transaction) {
       await transaction.rollback();

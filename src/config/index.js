@@ -5,7 +5,7 @@ module.exports = {
   port: process.env.PORT,
   jwt: {
     secret: process.env.JWT_SECRET,
-    lifeTime: process.env.JWT_LIFE_TIME
+    lifeTime: 60*10
   },
   sendGrid: {
     apiKey: process.env.SENDGRID_API_KEY,
